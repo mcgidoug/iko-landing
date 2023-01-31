@@ -3,14 +3,14 @@ import videoBg from "../assets/wallpaper1.mp4";
 import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 import { FaSpotify, FaBandcamp, FaTwitch, FaTiktok } from "react-icons/fa";
 import { SiApplemusic } from "react-icons/si";
+import ikoseveta5 from "../assets/ikoseveta5.png";
 
 const Main = () => {
   return (
     <div className="main">
       <video src={videoBg} autoPlay loop muted />
-      {/* main page title */}
       <div className="content">
-        <h1>IKOSEVETA</h1>
+        <img src={ikoseveta5} alt="ikoseveta logo" />
         {/* links container */}
         <div className="links">
           <a
