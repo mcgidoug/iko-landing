@@ -45,7 +45,7 @@ video {
   margin: 10px;
 }
 
-a:visited {
+.links a:visited {
   color: white;
 }
 
@@ -54,12 +54,15 @@ a:visited {
   img {
     width: 300px;
   }
-  .links {
+  .links a {
     font-size: 30px;
     color: white;
   }
-  a:visited {
+  .links a:visited {
     color: white;
+  }
+  .link {
+    margin: 5px;
   }
 }
 
@@ -67,11 +70,14 @@ a:visited {
   img {
     width: 250px;
   }
-  .links {
+  .links a {
     font-size: 20px;
     color: white;
   }
-  a:visited {
+  .links a:visited {
     color: white;
+  }
+  .link {
+    margin: 5px;
   }
 }
