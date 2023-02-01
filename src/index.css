@@ -40,10 +40,30 @@ video {
   color: white;
   font-size: 50px;
 }
+
 .link {
   margin: 10px;
 }
 
 a:visited {
   color: white;
+}
+
+/* ======== MEDIA QUERIES ======== */
+@media screen and (max-width: 1024px) {
+  img {
+    width: 300px;
+  }
+  .links {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 200px;
+  }
+  .links {
+    font-size: 20px;
+  }
 }
