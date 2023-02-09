@@ -8,7 +8,7 @@ import ikoseveta5 from "../assets/ikoseveta5.png";
 const Main = () => {
   return (
     <div className="main">
-      <video src={videoBg} autoPlay loop muted />
+      <video src={videoBg} autoPlay loop muted webkit-playsInline />
       <div className="content">
         <img src={ikoseveta5} alt="ikoseveta logo" />
         {/* links container */}
