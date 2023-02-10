@@ -4,6 +4,7 @@ import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 import { FaSpotify, FaBandcamp, FaTwitch, FaTiktok } from "react-icons/fa";
 import { SiApplemusic } from "react-icons/si";
 import ikoseveta5 from "../assets/ikoseveta5.png";
+import "./Main.css";
 
 const Main = () => {
   return (
