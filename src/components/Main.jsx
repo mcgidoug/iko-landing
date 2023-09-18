@@ -1,7 +1,7 @@
 import React from "react";
 import videoBg from "../assets/wallpaper1.mp4";
 import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
-import { FaSpotify, FaBandcamp, FaTwitch, FaTiktok } from "react-icons/fa";
+import { FaSpotify, FaBandcamp, FaTiktok } from "react-icons/fa";
 import { SiApplemusic } from "react-icons/si";
 import ikoseveta5 from "../assets/ikoseveta5.png";
 import "./Main.css";
@@ -46,14 +46,14 @@ const Main = () => {
           >
             <FaBandcamp />
           </a>
-          <a
+          {/* <a
             className="link"
             href="https://www.twitch.tv/ikoseveta"
             target="_blank"
             rel="noreferrer"
           >
             <FaTwitch />
-          </a>
+          </a> */}
           <a
             className="link"
             href="https://www.tiktok.com/@ikoseveta"

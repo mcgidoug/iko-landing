@@ -48,6 +48,10 @@ video {
   color: white;
 }
 
+.link:hover {
+  color: aqua !important;
+}
+
 /* ======== MEDIA QUERIES ======== */
 @media screen and (max-width: 1024px) {
   img {
